@@ -1,0 +1,15 @@
+*{border: 1px solid #ff0000}
+
+.a0001{ display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } 
+
+  .a0002{ display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } 
