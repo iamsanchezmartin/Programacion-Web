@@ -1,29 +1,44 @@
-*{border: 1px solid #ff0000}
+*{border: 1px solid #ff0000; 
+  margin: 0;
+}
 
 header {
   background-color: #ffffff;
   font-size: 18px;
   padding: 10px;
+  margin: 0;
 }
 
-.a0001{ display:flex;
+.l0001{ display:flex;
     justify-content: space-between;
     list-style-type: none;
+    text-decoration: none; /* No funciona para hacer desaparecer la linea de los links */
     margin: 0;
     padding: 0;
   } 
 
-  .a0002{ display:flex;
+  .l0002{ display:flex;
     justify-content: space-around;
     list-style-type: none;
     margin: 0;
     padding: 0;
   }   
    
-  .a0002 li{
+  .l0002 li{
     display: inline-block;
     margin-right: 20px;
   } 
 
+  #i0001 {
+    max-width: 36px;
+    height: auto;
+  }
 
-  
+  #i0002 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #t0001 {
+
+  }
