@@ -14,7 +14,7 @@ header {
   margin: 0;
 }
 
-.l0001{ 
+.l0001 { 
     display:flex;
     justify-content: space-between;
     list-style-type: none;
@@ -23,7 +23,7 @@ header {
     padding: 0;
   } 
 
-  .l0002{ 
+  .l0002 { 
     display:flex;
     justify-content: space-around;
     list-style-type: none;
@@ -31,7 +31,7 @@ header {
     padding: 0;
   }   
    
-  .l0002 li{
+  .l0002 li {
     display: inline-block;
     margin-right: 35px;
   } 
@@ -83,16 +83,54 @@ header {
 
 /* SECCION N°3 */
 
-#t0003 {
+  #t0003 {
+    color: #000000;
+    text-align: center;
+    padding: 60px;
+  }
+
+  #t0004 {
+    color: #000000;
+    opacity: 0.6;
+    text-align: center;
+    padding: 0;
+  }
+
+  .l0003 { 
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none; /* No funciona para hacer desaparecer la linea de los links */
+    margin: 0;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+  } 
+
+  .l0004 { 
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none; /* No funciona para hacer desaparecer la linea de los links */
+    margin: 0;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+  } 
+
+/* SECCION N°4 */
+
+#t0005 {
+  color: #000000;
   text-align: center;
-  padding: 60px;
+  padding: 40px;
 }
 
-.l0003{ 
-  display:flex;
-  justify-content: space-between;
-  list-style-type: none;
-  text-decoration: none; /* No funciona para hacer desaparecer la linea de los links */
-  margin: 0;
+#t0006 {
+  color: #000000;
+  opacity: 0.6;
+  text-align: center;
   padding: 0;
-} 
+}
