@@ -43,7 +43,7 @@ header {
     transform: translateX(-50%);
   }
 
-/* PRIMERA SECCION */
+/* SECCION N°1 */
 
   #i0002 {
     max-width: 100%;
@@ -73,10 +73,26 @@ header {
     margin-bottom: 0;
   }
 
-/* SEGUNDA SECCION */
+/* SECCION N°2 */
 
   #t0002 {  
     color: #ffffff;
     background-color: #000000;
-    padding: 60px;
+    padding: 120px;
   }
+
+/* SECCION N°3 */
+
+#t0003 {
+  text-align: center;
+  padding: 60px;
+}
+
+.l0003{ 
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none; /* No funciona para hacer desaparecer la linea de los links */
+  margin: 0;
+  padding: 0;
+} 
