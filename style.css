@@ -3,6 +3,7 @@
 *{
   border: 1px solid #ff0000; 
   margin: 0;
+  font-family: 'Roboto Mono', monospace, Arial, sans-serif
 }
 
 /* MENU DE NAVEGACION */
@@ -83,6 +84,10 @@ header {
 
 /* SECCION N°3 */
 
+  .s0003{
+    margin: 0%;
+  }
+
   #t0003 {
     color: #000000;
     text-align: center;
@@ -122,15 +127,19 @@ header {
 
 /* SECCION N°4 */
 
-#t0005 {
-  color: #000000;
-  text-align: center;
-  padding: 40px;
-}
+  .s0004 {
+    margin: 0px;
+  }
 
-#t0006 {
-  color: #000000;
-  opacity: 0.6;
-  text-align: center;
-  padding: 0;
-}
+  #t0005 {
+    color: #000000;
+    text-align: center;
+    padding: 40px;
+  }
+
+  #t0006 {
+    color: #000000;
+    opacity: 0.6;
+    text-align: center;
+    padding: 0;
+  }
