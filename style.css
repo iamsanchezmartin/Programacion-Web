@@ -6,6 +6,10 @@
   font-family: 'Roboto Mono', monospace, Arial, sans-serif
 }
 
+a {
+  text-decoration: none; 
+}
+
 /* MENU DE NAVEGACION */
 
 header {
@@ -19,7 +23,6 @@ header {
     display:flex;
     justify-content: space-between;
     list-style-type: none;
-    text-decoration: none; /* No funciona para hacer desaparecer la linea de los links */
     margin: 0;
     padding: 0;
   } 
@@ -28,6 +31,7 @@ header {
     display:flex;
     justify-content: space-around;
     list-style-type: none;
+    text-decoration: none; 
     margin: 0;
     padding: 0;
   }   
@@ -45,10 +49,12 @@ header {
   }
 
 /* SECCION N°1 */
-
+  .div{
+    padding-bottom: 0px;
+  }
   #i0002 {
+    display: block;
     max-width: 100%;
-    height: auto;
   }
 
   .t0001 {  
