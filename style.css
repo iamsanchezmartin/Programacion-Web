@@ -97,39 +97,44 @@ header {
   #t0003 {
     color: #000000;
     text-align: center;
-    padding: 60px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+
   }
 
   #t0004 {
     color: #000000;
     opacity: 0.6;
     text-align: center;
-    padding: 0;
+    padding: 20px;
+    font-size: 12px;
   }
 
-  .l0003 { 
-    display:flex;
-    justify-content: space-between;
-    list-style-type: none;
-    text-decoration: none; /* No funciona para hacer desaparecer la linea de los links */
-    margin: 0;
-    padding: 20px;
-    border-radius: 5px;
-    width: 80%;
-    max-width: 500px;
+  .l0004 { 
+    display: flex; 
+    justify-content: center; 
+    list-style: none;  
+    transform: translateX(-50%);
   } 
 
-  .l0004 { 
-    display:flex;
-    justify-content: space-between;
-    list-style-type: none;
-    text-decoration: none; /* No funciona para hacer desaparecer la linea de los links */
-    margin: 0;
-    padding: 20px;
-    border-radius: 5px;
-    width: 80%;
-    max-width: 500px;
+  .l0004 li {
+    display: inline-block;
+    margin-right: 10%;
+    max-width: 30%;
+  }
+
+  .l0005 { 
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+    padding: 0; 
   } 
+
+  .l0005 li {
+    display: inline-block;
+    margin-right: 35px;
+    max-width: 250px;
+  }
 
 /* SECCION N°4 */
 
@@ -140,12 +145,63 @@ header {
   #t0005 {
     color: #000000;
     text-align: center;
-    padding: 40px;
+    padding-top: 80px;
+    padding-bottom: 20px;
   }
 
   #t0006 {
     color: #000000;
     opacity: 0.6;
     text-align: center;
-    padding: 0;
+    padding: 20px;
+    font-size: 12px;
   }
+
+  .l0006 { 
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+    padding: 0;
+  } 
+
+  .l0006 li {
+    display: inline-block;
+    margin-right: 35px;
+    max-width: 250px;
+  }
+
+  /* PIE DE PAGINA */
+
+  footer {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .l0000 { 
+      display:flex;
+      justify-content: space-between;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    } 
+  
+    .l1000 { 
+      display:flex;
+      justify-content: space-around;
+      list-style-type: none;
+      text-decoration: none; 
+      margin: 0;
+      padding: 0;
+    }   
+     
+    .l1000 li {
+      display: inline-block;
+      margin-left: 35px;
+    } 
+  
+    #i0000 {
+      max-width: 36px;
+      position: absolute;
+    }
