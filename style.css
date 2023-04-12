@@ -19,7 +19,7 @@ header {
   margin: 0;
 }
 
-.l0001 { 
+.lista1nav { 
     display:flex;
     justify-content: space-between;
     list-style-type: none;
@@ -27,7 +27,7 @@ header {
     padding: 0;
   } 
 
-  .l0002 { 
+  .lista2nav { 
     display:flex;
     justify-content: space-around;
     list-style-type: none;
@@ -36,12 +36,12 @@ header {
     padding: 0;
   }   
    
-  .l0002 li {
+  .lista2nav li {
     display: inline-block;
     margin-right: 35px;
   } 
 
-  #i0001 {
+  #imglogo {
     max-width: 36px;
     position: absolute;
     left: 50%;
@@ -50,15 +50,15 @@ header {
 
 /* SECCION N°1 */
 
-  .s0001{
+  .seccion1{
     padding-bottom: 0px;
   }
-  #i0002 {
+  #imgportada {
     display: block;
     max-width: 100%;
   }
 
-  .t0001 {  
+  .textoseccion1 {  
     position: absolute;
     top: 50%;
     left: 50%;
@@ -70,12 +70,12 @@ header {
     max-width: 500px;
   }
 
-  .t0001 h1 {
+  .textoseccion1 h1 {
     font-size: 36px;
     margin-bottom: 10px;
   }
   
-  .t0001 h2 {
+  .textoseccion1 h2 {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 0;
@@ -83,7 +83,7 @@ header {
 
 /* SECCION N°2 */
 
-  #t0002 {  
+  #textoseccion2 {  
     color: #ffffff;
     background-color: #000000;
     padding: 120px;
@@ -95,7 +95,7 @@ header {
     margin: 0%;
   }
 
-  #t0003 {
+  #textoseccion3 h1{
     color: #000000;
     text-align: center;
     padding-top: 80px;
@@ -103,7 +103,7 @@ header {
 
   }
 
-  #t0004 {
+  #textoseccion3 h2{
     color: #000000;
     opacity: 0.6;
     text-align: center;
@@ -112,61 +112,49 @@ header {
     font-size: 12px;
   }
 
-  .l0004 { 
+  .lista1seccion3 { 
     display: flex; 
     justify-content: space-between;
     list-style: none;  
     padding: 5% 20% 5% 20%;
   } 
 
-  .l0004 li {
+  .lista1seccion3 li {
     display: inline-block;
   }
 
-  .l0005 { 
+  .lista2seccion3 { 
     display: flex; 
     justify-content: space-between; 
     list-style: none; 
     padding: 5% 10% 5% 10%;
   } 
 
-  .l0005 li {
+  .lista2seccion3 li {
   flex-basis: 30%;
   }
 
 /* SECCION N°4 */
 
-  .s0004 {
+  .seccion4 {
     margin: 0px;
   }
 
-  #t0005 {
+  .textoseccion4 h1{
     color: #000000;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 30px;
+
   }
 
-  #t0006 {
+  .textoseccion4 h2{
     color: #000000;
     opacity: 0.6;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 12px;
-  }
-
-  .l0006 { 
-    display: flex; 
-    justify-content: center; 
-    list-style: none; 
-    padding: 0;
-  } 
-
-  .l0006 li {
-    display: inline-block;
-    margin-right: 35px;
-    max-width: 250px;
   }
 
   /* SECCION N°4 CARDS */
@@ -180,7 +168,7 @@ header {
     padding-right: 80px;
   }
 
-  #i0003 {
+  .imgcard {
     display: block;
     max-width: 350px;
   }
@@ -197,7 +185,7 @@ header {
     margin: 0;
   }
   
-  .l0000 { 
+  .lista1piedepag { 
       display:flex;
       justify-content: space-between;
       list-style-type: none;
@@ -205,7 +193,7 @@ header {
       padding: 0;
     } 
   
-    .l1000 { 
+    .lista2piedepag { 
       display:flex;
       justify-content: space-around;
       list-style-type: none;
@@ -214,12 +202,12 @@ header {
       padding: 0;
     }   
      
-    .l1000 li {
+    .lista2piedepag li {
       display: inline-block;
       margin-left: 35px;
     } 
   
-    #i0000 {
+    #imglogopiedepag {
       max-width: 36px;
       position: absolute;
     }
