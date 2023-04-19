@@ -12,14 +12,14 @@ a {
 
 /* MENU DE NAVEGACION */
 
-header {
-  background-color: #ffffff;
-  font-size: 18px;
-  padding: 10px;
-  margin: 0;
-}
+  header {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+  }
 
-.lista1nav { 
+  .lista1nav { 
     display:flex;
     justify-content: space-between;
     list-style-type: none;
@@ -53,7 +53,7 @@ header {
   .seccion1{
     padding-bottom: 0px;
   }
-  
+
   #imgportada {
     display: block;
     width: 100%;
