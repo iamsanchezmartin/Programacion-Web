@@ -50,7 +50,8 @@ a {
 
 /* SECCION N°1 */
 
-  .seccion1{
+  #seccion1{
+    height: fit-content;
     padding-bottom: 0px;
   }
 
@@ -85,6 +86,10 @@ a {
 
 /* SECCION N°2 */
 
+  #seccion2{
+    height: fit-content;
+  }
+
   #textoseccion2 {  
     color: #ffffff;
     background-color: #000000;
@@ -93,7 +98,7 @@ a {
 
 /* SECCION N°3 */
 
-  .seccion3{
+  #seccion3{
     height: fit-content;
   }
 
@@ -117,15 +122,28 @@ a {
     display: grid; 
     grid-template-columns: auto auto auto; 
     grid-template-rows: auto auto; 
-    gap: 1em ;
-    height: 30%;
-    margin: 2%;
+    gap: 2em ;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .elementogridseccion3 {
+    max-width: 300px; 
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
 /* SECCION N°4 */
 
-  .seccion4 {
+  #seccion4 {
     margin: 0px;
+    height: fit-content;
   }
 
   .textoseccion4 h1{
@@ -155,7 +173,7 @@ a {
     padding-left: 80px;
     padding-right: 80px;
   }
-
+  
   .imgcard {
     display: block;
     max-width: 350px;
@@ -163,6 +181,43 @@ a {
 
   /* SECCION N°5 */
 
+  #seccion5 {
+    margin: 0px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 20%;
+  }
+
+  .textoseccion5 h1{
+    color: #000000;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    max-width: 500px;
+  }
+
+  .textoseccion5 h2{
+    color: #000000;
+    opacity: 0.6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    max-width: 500px;
+  }
+
+  .textoseccion5 h3{
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    max-width: 150px;
+    border-radius: 20px;
+  }
 
   /* PIE DE PAGINA */
 
