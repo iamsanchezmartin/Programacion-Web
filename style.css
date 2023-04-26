@@ -61,27 +61,12 @@ a {
     height: 95vh;
   }
 
-  .textoseccion1 {  
+  .imgseccion1 {  
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ff0000;
-    padding: 10px;
-    border-radius: 5px;
-    width: 80%;
-    max-width: 500px;
-  }
-
-  .textoseccion1 h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-  
-  .textoseccion1 h2 {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 0;
+    max-width: 1000%;
   }
 
 /* SECCION N°2 */
@@ -174,20 +159,52 @@ a {
     padding-right: 80px;
   }
   
+  .cardagriculture {
+    border-radius: 10%;
+    border: 2px solid#000000;
+  }
+
+  .cardenergy {
+    border-radius: 10%;
+    border: 2px solid#000000;
+  }
+
+  .cardphotography {
+    border-radius: 10%;
+    border: 2px solid#000000;
+  }
+
   .imgcard {
     display: block;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
     max-width: 350px;
   }
 
-  /* SECCION N°5 */
+  .titulocard {
+    color: #000000;
+    font-size: 18px;
+    padding-left: 40px;
+    max-width: 270px;
+  }
+
+  .textocard {
+    color: #000000;
+    opacity: 0.6;
+    font-size: 12px;
+    padding-left: 40px;
+    max-width: 270px;
+  }
+
+/* SECCION N°5 */
 
   #seccion5 {
     margin: 0px;
     height: fit-content;
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     padding-left: 0px;
     padding-right: 15%;
   }
@@ -221,7 +238,48 @@ a {
 
   #imgseccion5 {
     display: block;
-    max-width: 800px;
+    max-width: 50%;
+  }
+
+/* SECCION N°6 */
+
+  #seccion6 {
+    margin: 0px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  #imgseccion6 {
+    display: block;
+    max-width: 30%;
+  }
+
+  .textoseccion6 h1{
+    color: #000000;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    max-width: 500px;
+  }
+
+  .textoseccion6 h2{
+    color: #000000;
+    opacity: 0.6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    max-width: 500px;
+  }
+
+  .textoseccion6 h3{
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
   }
 
   /* PIE DE PAGINA */
