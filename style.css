@@ -14,8 +14,11 @@ a {
 
   header {
     background-color: #ffffff;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 24px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
     margin: 0;
   }
 
@@ -52,13 +55,12 @@ a {
 
   #seccion1{
     height: fit-content;
-    padding-bottom: 0px;
+    padding-bottom: 0%;
   }
 
   #imgportada {
     display: block;
-    width: 100%;
-    height: 95vh;
+    max-width: 100%;
   }
 
   .imgseccion1 {  
@@ -66,19 +68,23 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 1000%;
+    max-width: 100%;
   }
 
 /* SECCION N°2 */
 
   #seccion2{
     height: fit-content;
+    background-color: #000000;
   }
 
   #textoseccion2 {  
     color: #ffffff;
-    background-color: #000000;
-    padding: 120px;
+    font-size: 24px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 40%;
   }
 
 /* SECCION N°3 */
@@ -90,17 +96,18 @@ a {
   #textoseccion3 h1{
     color: #000000;
     text-align: center;
+    font-size: 36px;
     padding-top: 80px;
     padding-bottom: 30px;
   }
 
   #textoseccion3 h2{
     color: #000000;
-    opacity: 0.6;
+    opacity: 0.7;
     text-align: center;
+    font-size: 24px;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 12px;
   }
 
   #gridseccion3{
@@ -118,6 +125,7 @@ a {
 
   .elementogridseccion3 {
     max-width: 300px; 
+    font-size: 24px;
     padding-top: 50px;
     padding-bottom: 20px;
     padding-left: 80px;
@@ -134,6 +142,7 @@ a {
   .textoseccion4 h1{
     color: #000000;
     text-align: center;
+    font-size: 36px;
     padding-top: 80px;
     padding-bottom: 30px;
 
@@ -141,11 +150,12 @@ a {
 
   .textoseccion4 h2{
     color: #000000;
-    opacity: 0.6;
+    opacity: 0.7;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 12px;
+    
+    font-size: 24px;
+    padding-right: 25%;
+    padding-left: 25%;
   }
 
   /* SECCION N°4 CARDS */
@@ -153,24 +163,27 @@ a {
   .container {
     display: flex;
     justify-content: space-around;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   
   .cardagriculture {
     border-radius: 10%;
+    background-color: #ff0000;
     border: 2px solid#000000;
   }
 
   .cardenergy {
     border-radius: 10%;
+    background-color: #ff0000;
     border: 2px solid#000000;
   }
 
   .cardphotography {
     border-radius: 10%;
+    background-color: #ff0000;
     border: 2px solid#000000;
   }
 
@@ -183,15 +196,15 @@ a {
 
   .titulocard {
     color: #000000;
-    font-size: 18px;
+    font-size: 24px;
     padding-left: 40px;
     max-width: 270px;
   }
 
   .textocard {
     color: #000000;
-    opacity: 0.6;
-    font-size: 12px;
+    opacity: 0.7;
+    font-size: 18px;
     padding-left: 40px;
     max-width: 270px;
   }
@@ -205,12 +218,18 @@ a {
     justify-content: space-between;
     padding-top: 10%;
     padding-bottom: 10%;
-    padding-left: 0px;
-    padding-right: 15%;
+    padding-left: 0%;
+    padding-right: 20%;
+  }
+
+  .textoseccion5 {
+    display: block;
+    max-width: 25%;
   }
 
   .textoseccion5 h1{
     color: #000000;
+    font-size: 36px;
     padding-top: 80px;
     padding-bottom: 30px;
     max-width: 500px;
@@ -218,10 +237,10 @@ a {
 
   .textoseccion5 h2{
     color: #000000;
-    opacity: 0.6;
+    opacity: 0.7;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 500px;
   }
 
@@ -231,7 +250,7 @@ a {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 12px;
+    font-size: 18px;
     max-width: 150px;
     border-radius: 20px;
   }
@@ -256,22 +275,23 @@ a {
 
   #imgseccion6 {
     display: block;
-    max-width: 30%;
+    max-width: 40%;
   }
 
   .textoseccion6 h1{
     color: #000000;
-    padding-top: 80px;
+    font-size: 36px;
+    padding-top: 30px;
     padding-bottom: 30px;
     max-width: 500px;
   }
 
   .textoseccion6 h2{
     color: #000000;
-    opacity: 0.6;
+    opacity: 0.7;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 12px;
+    font-size: 18px;
     max-width: 500px;
   }
 
@@ -279,7 +299,26 @@ a {
     color: #000000;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 12px;
+    font-size: 24px;
+  }
+
+/* SECCION N°7 */
+
+  #seccion7{
+    height: fit-content;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #000000;
+  }
+
+  #imgseccion7 {
+    display: block;
+    justify-content: center;
+    max-width: 100%;
+    border-radius: 5%;
   }
 
   /* PIE DE PAGINA */
@@ -287,8 +326,30 @@ a {
   footer {
     background-color: #ffffff;
     font-size: 18px;
-    padding: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
     margin: 0;
+  }
+
+  #textopiedepag h1{
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  #piedepaglinks {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+
+  .logospiedepag {
+    max-width: 10%;
   }
   
   .lista1piedepag { 
@@ -299,21 +360,28 @@ a {
       padding: 0;
     } 
   
-    .lista2piedepag { 
-      display:flex;
-      justify-content: space-around;
-      list-style-type: none;
-      text-decoration: none; 
-      margin: 0;
-      padding: 0;
-    }   
+  .lista2piedepag { 
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none; 
+    margin: 0;
+    padding: 0;
+  }   
      
-    .lista2piedepag li {
-      display: inline-block;
-      margin-left: 35px;
-    } 
+  .lista2piedepag li {
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 35px;
+  } 
   
-    #imglogopiedepag {
-      max-width: 36px;
-      position: absolute;
-    }
+  #imglogopiedepag {
+    max-width: 36px;
+    position: absolute;
+  }
+
+  #textocopywritting {
+    color: #000000;
+    opacity: 0.7;
+    font-size: 24px;
+  }
