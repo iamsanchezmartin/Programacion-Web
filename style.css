@@ -25,24 +25,23 @@ a {
   .lista1nav { 
     display:flex;
     justify-content: space-between;
-    list-style-type: none;
     margin: 0;
     padding: 0;
   } 
 
   .lista2nav { 
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
-    text-decoration: none; 
     margin: 0;
     padding: 0;
   }   
-   
-  .lista2nav li {
-    display: inline-block;
-    margin-right: 35px;
-  } 
+
+  .lista2nav a {
+    color: #000000;
+    margin-right: 0%;
+    padding: 0;
+  }
 
   #imglogo {
     max-width: 36px;
@@ -114,22 +113,19 @@ a {
     display: grid; 
     grid-template-columns: auto auto auto; 
     grid-template-rows: auto auto; 
-    gap: 2em ;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
+    gap: 2em;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
     max-width: 60%;
-    margin: 0 auto;
   }
 
   .elementogridseccion3 {
-    max-width: 300px; 
+    max-width: 50%; 
     font-size: 24px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
 /* SECCION N°4 */
@@ -163,6 +159,7 @@ a {
   .container {
     display: flex;
     justify-content: space-around;
+    max-width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 15%;
@@ -191,7 +188,7 @@ a {
     display: block;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    max-width: 350px;
+    max-width: 100%;
   }
 
   .titulocard {
