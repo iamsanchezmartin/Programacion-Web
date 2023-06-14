@@ -278,6 +278,9 @@ a {
     display: block;
     max-width: 50%;
     margin: 0%;
+    border: 3px solid #000000;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
   }
 
 /* SECCION N°6 */
@@ -297,6 +300,8 @@ a {
     display: block;
     max-width: 40%;
     margin: 0%;
+    border: 3px solid #000000;
+    border-radius: 5%;
   }
 
   .textoseccion6 h1{
@@ -342,6 +347,7 @@ a {
     display: block;
     justify-content: center;
     max-width: 100%;
+    border: 3px solid #ffffff;
     border-radius: 5%;
     margin: 0%;
   }
@@ -351,6 +357,7 @@ a {
   #seccion8{
     height: fit-content;
     background-color: #ffffff;
+    padding-top: 3%;
   }
 
   .textoseccion8 {
@@ -358,6 +365,10 @@ a {
     flex-direction: column;
     padding-left: 15%;
     margin: 0%;
+  }
+
+  .textoseccion8telefono {
+    display: flex;
   }
 
   .textoseccion8 h1{
@@ -372,30 +383,104 @@ a {
   .textoseccion8 h2{
     color: #000000;
     opacity: 0.7;
-    font-size: 18px;
-    margin-top: 0%;
+    font-size: 24px;
+    margin:0%;
     padding-top: 1%;
     padding-bottom: 1%;
+    max-width: 60%;
+  }
+
+  .textoseccion8 h3{
+    display: flex;
+    color: #000000;
+    font-size: 24px;
+    margin:0%;
+    padding-left: 2%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #iconotelefono {
+    max-width: 5%;
   }
 
   .contacto1 {
-
     padding-left: 15%;
   }
 
   .contacto2 {
-
     padding-left: 15%;
   }
 
   .contacto3 {
-
     padding-left: 15%;
   }
 
-/* SECCION N°9 */
+  .contactoinput {
+    font-size: 24px;
+    border-radius: 1%;
+    padding: 0%;
+    margin: 1%;
+  }
 
-  #seccion9{
+  #contactoinput_s {
+    font-size: 24px;
+    border-radius: 1%;
+    padding: 0%;
+    margin: 1%;
+  }
+
+  #contactoinputmessaje {
+    font-size: 24px;
+    margin: 1%;
+    min-width: 60%;
+    height: 10%;
+  }
+
+/* SECCION N°9 RECAPTCHAT */
+
+  #recaptcha{
+    height: fit-content;
+    background-color: #ffffff;
+    padding-left: 15%;
+  }
+
+  #capchatnumero1 {
+    font-size: 24px;
+    margin: 1%;
+  }
+
+  #capchatnumero2 {
+    font-size: 24px;
+    margin: 1%;
+  }
+
+  #respuestadelformulario {
+    font-size: 24px;
+    margin: 1%;
+  }
+
+  .botondesendmenssaje {
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    border-radius: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 1%;
+  }
+
+  #botonform {
+    padding-left: 15%;
+    padding-bottom: 3%;
+  }
+
+/* SECCION N°10 */
+
+  #seccion10{
     height: fit-content;
   }
 

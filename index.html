@@ -189,51 +189,69 @@
 
         <div id="seccion8">
 
-            <div class="textoseccion8">
-
-                <h1>We’d Love to Hear from You</h1>
-                <h2>Please submit your information and a Designmodo representative will get in touch with you</h2>
-                <img src="" alt="iconodetelefono">
-                <h2>Call sales at +1 555 505 5050</h2>
-
-            </div>
- 
-            <div class="contacto1">
-
-                <input class="contactoinput" type="text" placeholder="Your mail">
-                <input class="contactoinput" type="text" placeholder="Your mail">
-
-            <div>
+            <form id="formulario">
 
 
-            </div class="contacto2">
+                <div class="textoseccion8">
 
-                <input class="contactoinput" type="text" placeholder="Your phone">
-                <input class="contactoinput" type="text" placeholder="Company size">
+                    <h1>We’d Love to Hear from You</h1>
+                    <h2>Please submit your information and a Designmodo representative will get in touch with you</h2>
 
-            </div>
+                    <div class= "textoseccion8telefono">
+                        <img id="iconotelefono" src="./Imagenes/iconotelefono.png" alt="iconodetelefono">
+                        <h3>Call sales at +1 555 505 5050</h2>
+                    </div>
 
-            <div class="contacto3">
+                </div>
+    
+                <div class="contacto1">
 
-                <input class="contactoinput" type="text" placeholder="Your menssaje">
+                    <input class="contactoinput" type="text" placeholder="Full Name">
+                    <input class="contactoinput" type="text" placeholder="Email Address">
 
-            </div>
+                <div>
 
-            <div>
 
-                <span id="capchatnumero1"></span>
-                <span id="capchatnumero2"></span>
-                <input id="respuestadelformulario" type="text" placeholder="Respuesta">
+                </div class="contacto2">
 
-            </div>
+                    <input class="contactoinput" type="text" placeholder="Your phone">
+                    <select id="contactoinput_s">
+                        <option selected>Company Industries</option>
+                        <option value="1">Agriculture</option>
+                        <option value="2">Energy</option>
+                        <option value="3">Photography</option>
+                      </select>
 
-            <button id="botondesendmenssaje()" href=""> Send menssaje </button>
+                </div>
 
-        </div>
+                <div class="contacto3">
 
-        <!-- SECCION N°9  -->
+                    <input id="contactoinputmessaje" type="text" placeholder="Your menssaje">
 
-        <div id="seccion9">
+                </div>
+
+                <div id="recaptcha">
+
+                    <span id="capchatnumero1"></span>
+                    <span id="capchatnumero2"></span>
+                    <input id="respuestadelformulario" type="text" placeholder="Respuesta">
+                    <div id="mensaje" style="display: none;"></div>
+
+                </div>
+
+                <div id="botonform">
+
+                    <button class="botondesendmenssaje" type="button" class="btn btn-lg btn-dark btn-block"> Send menssaje </button>
+
+                </div>
+                
+            </form> 
+
+        <div>
+
+        <!-- SECCION N°10  -->
+
+        <div id="seccion10">
 
             <div id="textopiedepag">
 
@@ -301,7 +319,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="myscript.js"></script>
-
+ 
 </body>
 
 </html>
