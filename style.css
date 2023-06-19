@@ -416,21 +416,35 @@ a {
     padding-left: 15%;
   }
 
-  .contactoinput {
+  #name {
     font-size: 24px;
     border-radius: 1%;
     padding: 0%;
     margin: 1%;
   }
 
-  #contactoinput_s {
+  #emailaddress {
     font-size: 24px;
     border-radius: 1%;
     padding: 0%;
     margin: 1%;
   }
 
-  #contactoinputmessaje {
+  #phone {
+    font-size: 24px;
+    border-radius: 1%;
+    padding: 0%;
+    margin: 1%;
+  }
+
+  #companyindustries {
+    font-size: 24px;
+    border-radius: 1%;
+    padding: 0%;
+    margin: 1%;
+  }
+
+  #menssaje {
     font-size: 24px;
     margin: 1%;
     min-width: 60%;
