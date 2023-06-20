@@ -5,9 +5,27 @@
   font-family: 'Roboto Mono', monospace, Arial, sans-serif;
 }
 
+body {
+  font-size: 16px;
+}
+
 a {
   text-decoration: none; 
 }
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+
 
 /* MENU DE NAVEGACION */
 
@@ -92,7 +110,6 @@ a {
 
   #textoseccion2 {  
     color: #ffffff;
-    font-size: 24px;
     padding-bottom: 5%;
     padding-top: 5%;
     padding-left: 20%;
@@ -109,7 +126,6 @@ a {
   #textoseccion3 h1{
     color: #000000;
     text-align: center;
-    font-size: 36px;
     padding-top: 80px;
     padding-bottom: 30px;
     margin: 0%;
@@ -119,7 +135,6 @@ a {
     color: #000000;
     opacity: 0.7;
     text-align: center;
-    font-size: 24px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0%;
@@ -138,7 +153,6 @@ a {
 
   .elementogridseccion3 {
     max-width: 80%;
-    font-size: 24px;
   }
 
 /* SECCION N°4 */
@@ -151,7 +165,6 @@ a {
   .textoseccion4 h1{
     color: #000000;
     text-align: center;
-    font-size: 36px;
     padding-top: 80px;
     padding-bottom: 30px;
     margin: 0%;
@@ -161,7 +174,6 @@ a {
     color: #000000;
     opacity: 0.7;
     text-align: center;
-    font-size: 24px;
     padding-right: 25%;
     padding-left: 25%;
     margin: 0%;
@@ -209,7 +221,6 @@ a {
 
   .titulocard {
     color: #000000;
-    font-size: 24px;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
@@ -218,7 +229,6 @@ a {
   .textocard {
     color: #000000;
     opacity: 0.7;
-    font-size: 18px;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
@@ -245,7 +255,6 @@ a {
 
   .textoseccion5 h1{
     color: #000000;
-    font-size: 36px;
     padding-top: 10%;
     padding-bottom: 4%;
     max-width: 500px;
@@ -257,12 +266,11 @@ a {
     opacity: 0.7;
     padding-top: 10%;
     padding-bottom: 10%;
-    font-size: 24px;
     max-width: 500px;
     margin: 0%;
   }
 
-  .textoseccion5 h3{
+  .textoseccion5 button{
     color: #ffffff;
     background-color: #000000;
     text-align: center;
@@ -306,26 +314,23 @@ a {
 
   .textoseccion6 h1{
     color: #000000;
-    font-size: 36px;
     padding-top: 4%;
     padding-bottom: 4%;
     max-width: 500px;
     margin: 0%;
   }
 
-  .textoseccion6 h2{
+  .textoseccion6 p{
     color: #000000;
     opacity: 0.7;
-    font-size: 18px;
     padding-top: 2%;
     padding-bottom: 2%;
     max-width: 500px;
     margin: 0%;
   }
 
-  .textoseccion6 h3{
+  .textoseccion6 h2{
     color: #000000;
-    font-size: 24px;
     padding-top: 4%;
     padding-bottom: 4%;
     margin: 0%;
@@ -373,7 +378,6 @@ a {
 
   .textoseccion8 h1{
     color: #000000;
-    font-size: 36px;
     margin: 0%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -383,7 +387,6 @@ a {
   .textoseccion8 h2{
     color: #000000;
     opacity: 0.7;
-    font-size: 24px;
     margin:0%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -393,7 +396,6 @@ a {
   .textoseccion8 h3{
     display: flex;
     color: #000000;
-    font-size: 24px;
     margin:0%;
     padding-left: 2%;
     justify-content: center;
@@ -417,35 +419,30 @@ a {
   }
 
   #name {
-    font-size: 24px;
     border-radius: 1%;
     padding: 0%;
     margin: 1%;
   }
 
   #emailaddress {
-    font-size: 24px;
     border-radius: 1%;
     padding: 0%;
     margin: 1%;
   }
 
   #phone {
-    font-size: 24px;
     border-radius: 1%;
     padding: 0%;
     margin: 1%;
   }
 
   #companyindustries {
-    font-size: 24px;
     border-radius: 1%;
     padding: 0%;
     margin: 1%;
   }
 
   #menssaje {
-    font-size: 24px;
     margin: 1%;
     min-width: 60%;
     height: 10%;
@@ -460,17 +457,14 @@ a {
   }
 
   #capchatnumero1 {
-    font-size: 24px;
     margin: 1%;
   }
 
   #capchatnumero2 {
-    font-size: 24px;
     margin: 1%;
   }
 
   #respuestadelformulario {
-    font-size: 24px;
     margin: 1%;
   }
 
@@ -500,7 +494,6 @@ a {
 
   #textopiedepag h1{
     color: #000000;
-    font-size: 36px;
     text-align: center;
     margin: 0%;
   }
