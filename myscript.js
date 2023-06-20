@@ -50,21 +50,19 @@ function verificarRespuesta(event) {
     // Mostrar mensaje de respuesta correcta
     document.getElementById("mensaje").textContent = "¡Respuesta correcta!";
     document.getElementById("mensaje").style.display = "block";
-
-    // Configurar los datos del formulario para enviarlo por POST
-    var data = {
-      name: name,
-      emailaddress: emailaddress,
-      phone: phone,
-      companyindustries: companyindustries,
-      menssaje: menssaje
-    };
     
-    // Realizar la solicitud POST mediante la API Fetch
+    // Configurar los datos del formulario para enviarlo por POST
     var form = document.getElementById("formulario");
     form.method = "POST";
     form.action = "https://formsubmit.co/3ef383ea9c05b6cf289816b5da6fc455";
     form.target = "_blank"; // Abrir en una nueva pestaña
+
+    // Configurar los datos del formulario para enviarlo por POST
+    form.elements["name"].value = name;
+    form.elements["emailaddress"].value = emailaddress;
+    form.elements["phone"].value = phone;
+    form.elements["companyindustries"].value = companyindustries;
+    form.elements["menssaje"].value = menssaje;
 
     // Envío del formulario
     form.submit();
