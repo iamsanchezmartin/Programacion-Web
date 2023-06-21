@@ -1,7 +1,6 @@
 /* GENERAL */
 
 *{
-  border: 1px solid #ff0000; 
   font-family: 'Roboto Mono', monospace, Arial, sans-serif;
 }
 
@@ -35,6 +34,14 @@ body {
   span {
     font-size: 1.2rem;
   }
+
+  input {
+    font-size: 1.2rem;
+  }
+
+  select {
+    font-size: 1.2rem;
+  }
 }
 
 /* ----------- PANTALLA DE TABLET ----------- */
@@ -61,6 +68,14 @@ body {
   }
 
   span {
+    font-size: 0.8rem;
+  }
+
+  input {
+    font-size: 0.8rem;
+  }
+
+  select {
     font-size: 0.8rem;
   }
 }
@@ -90,6 +105,14 @@ body {
   }
 
   span {
+    font-size: 0.6rem;
+  }
+
+  input {
+    font-size: 0.6rem;
+  }
+
+  select {
     font-size: 0.6rem;
   }
 }
@@ -130,12 +153,16 @@ body {
     padding: 0;
   }
 
-  #imglogonav {
+  #aimglogonav {
     max-width: 3%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin: 0%;
+  }
+
+  #imglogonav {
+    max-width: 100%
   }
 
   #botondecontacto {
@@ -223,6 +250,8 @@ body {
     grid-template-columns: auto auto auto; 
     grid-template-rows: auto auto auto; 
     gap: 2em;
+    justify-items: center;
+    align-items: center;
     padding-top: 5%;
     padding-bottom: 2%;
     padding-left: 15%;
@@ -230,10 +259,13 @@ body {
   }
 
   .elementogridseccion3 {
+    justify-items: center;
     max-width: 80%;
   }
 
   .elementogridseccion3imagenes{
+    align-items: center;
+    justify-content: center;
     max-width: 50%;
   }  
 
@@ -575,7 +607,7 @@ body {
 /* SECCION N°10 */
 
   #seccion10{
-    height: fit-content;
+    height: fit-content;;
   }
 
   #textopiedepag h1{
@@ -643,7 +675,11 @@ body {
     padding: 0;
   }
 
+  #aimglogopiedepag {
+    max-width: 3%;
+  }
+
   #imglogopiedepag {
-    max-width: 6%;
+    max-width: 100%;
     margin: 0 auto;
   }
